@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'C';
+    src: url(../fonts/C.ttf);
+}
+@font-face {
+    font-family: 'Elegan';
+    src: url(../fonts/Elegan.ttf);
+}
+@font-face {
+    font-family: 'Japonesa';
+    src: url(../fonts/Japonesa.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+span{
+    font-family: 'C';
+    font-size: 500%;
+    text-align: center;
+    background-color: #c7823f;
+    border-radius: 10px;
+}
+#titulo{
+    font-family: 'Japonesa';
+    background-color: rgba(199, 130, 63, .7);
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 2px;
+    font-family: 'Elegan';
+}
+section{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.parallax{
+    background-size: cover;
+    background: #e1c699 fixed no-repeat 50% 50%;
+}
+.titulo{
+    height: 15%;
+}
+span{
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+}
+.imgtexto{
+    width: 100%;
+    height: 45%;
+}
+.texto{
+    width: 100%;
+    height: 45%;
+    text-align: justify;
+    margin: 0;
+    padding: 10px;
+}
+footer{
+    width: 100%;
+    height: 5%;
+    background-color: #c7823f;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}

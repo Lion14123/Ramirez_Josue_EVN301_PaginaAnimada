@@ -1,0 +1,47 @@
+#textos2{
+    width: 100%;
+    height: 35%;
+}
+#imgS2{
+    width: 40%;
+    height: 100%;
+}
+.imgtextos2{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/templo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.anciano{
+    position: absolute;
+    z-index: 1;
+    animation: anciano 5s infinite alternate;
+}
+@keyframes anciano{
+    0%{margin-left: -50px;  opacity: 0;}
+    50%{margin-left: 100px;}
+    100%{margin-left: 100px;}
+}
+.aprendices{
+    margin-left: 10%;
+    position: absolute;
+    z-index: 2;
+    animation: aprendices 5s infinite alternate;
+}
+@keyframes aprendices{
+    0%{margin-right: -50px;  opacity: 0;}
+    50%{margin-right: 100px;}
+    100%{margin-right: 100px;}
+}
+.imggeneral{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.per{
+    width: 30%;
+}

@@ -1,0 +1,31 @@
+#s1{
+    background-image: url(../img/monte-fuji.jpg);
+    background-size: cover;
+}
+#introFondo{
+    opacity: 0.1;
+}
+#cara{
+    position: relative;
+    top: 22.5%;
+    height: 362px;
+    width: 362px;
+    background: url(../img/cara.gif);
+    background-size: cover;
+    margin: 0 auto;
+    animation: cara 3s steps(10) infinite alternate;
+}
+@keyframes cara{
+    0%{background-position: 0;}
+    100%{background-position: -3620px;}
+}
+
+#titulo{ width: 100px;
+height: 100px;
+color: black;
+animation: colors 3s infinite alternate;
+}
+@keyframes colors {
+from {color: black;}
+to {color: yellow;}
+}
